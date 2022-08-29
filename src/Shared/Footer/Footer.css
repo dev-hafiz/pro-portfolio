@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.footer{
+  background-color: #F2F2F2;
+  padding: 50px;
+  margin-top: 50px;
+}
+.a-link{
+  color: #105da6;
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.socialBox{
+  text-align: center;
+  cursor: pointer;
+  transition: .2s  all;
+
+}
+.miniBox{
+  visibility: hidden;
+ overflow: hidden;
+transform: scale(0);
+ transition: all .2s;
+}
+.socialBox:hover .miniBox{
+  visibility: visible;
+  transform: scale(1.1);
+}

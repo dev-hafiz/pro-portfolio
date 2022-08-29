@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Redressed&display=swap');
+
+
+body {
+     background: #F2F2F2;
+}
+
+.Parent-Dev_Title {
+     position: relative;
+     margin-top: 200px;
+     text-align:center;
+
+}
+
+.dev-Title {
+     margin-top: 70px;
+     font-size: 30px;
+     color: #630404;
+}
+
+span {
+     font-family: 'Rubik', sans-serif;
+}
+
+
+.dev-min_Title {
+     position: absolute;
+     left: 126px;
+     top: 40px;
+     font-weight: bolder;
+     text-align: right;
+     font-size: 26px;
+     color: #000;
+}
+button{
+     padding: 15px 30px;
+     margin-bottom: 100px;
+     overflow: hidden;
+     position: relative;
+     /* background: transparent; */
+     border: 2px solid #000;
+     text-transform: uppercase;
+     letter-spacing: .25em;
+     font-weight: 700;
+     font-size: 1em;
+     color: #000;
+     transition: .3s linear;
+     cursor: pointer;
+  
+}
+
+button:hover{
+background-color:rgb(250, 231, 231);
+}
+
+
+@media only screen and (min-width:200px) and (max-width:991px) {
+     .dev-min_Title {
+          font-size: 22px;
+          left: 0px;
+     }
+
+     .dev-min_Title {
+          top: 70px;
+          left: 34px;
+     }
+}
